@@ -1,0 +1,9 @@
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ::ng-deep .mat-card {
+    background: antiquewhite;
+    margin: 10px;
+  }
+  

@@ -1,0 +1,25 @@
+
+
+@media (min-width: 1280px) {
+
+  .width {
+    margin-left: 15rem;
+  }
+  ::ng-deep .mat-toolbar {
+    display: none !important;
+  }
+}
+
+.main-width {
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: 102rem;
+  background: aquamarine;
+}
+input {
+  font-family: cursive;
+  font-size: large;
+  height: 33px;
+  border-color: blue;
+  border-radius: 5px;
+}

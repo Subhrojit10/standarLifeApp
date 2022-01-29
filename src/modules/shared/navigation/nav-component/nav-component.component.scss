@@ -1,0 +1,70 @@
+nav {
+    display: none;
+    // width: 31%;
+  }
+  .outter-style nav {
+    display: block;
+  }
+  
+
+  ul {
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+  }
+  li {
+    
+    
+    margin-bottom: 23px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 0px;
+    height: 24px;
+    width: auto;
+    
+  }
+  li a.active {
+    padding: 10px;
+    border-left: 13px solid #03a9f4;
+  }
+  
+  li a {
+    padding: 10px;
+    border-left: 13px solid transparent;
+  }
+  
+  .scroll {
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 15rem;
+    height: 100%;
+    z-index: 1;
+    background: white;
+  }
+  
+  .headingText {
+    font-family: cursive;
+    margin: 10px;
+    font-size: xx-large;
+    padding: 10px;
+  }
+  .outter-style .scroll {
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  @media (min-width: 1280px) {
+    nav {
+      display: block;
+    }
+    .outter-style .scroll {
+        position: fixed;
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+
+  }
+
+  
