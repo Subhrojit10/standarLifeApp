@@ -3,7 +3,8 @@
     flex-wrap: wrap;
   }
   ::ng-deep .mat-card {
-    background: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px !important;
+        background: #2803f424;
     margin: 10px;
   }
   

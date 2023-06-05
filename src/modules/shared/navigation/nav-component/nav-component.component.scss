@@ -14,24 +14,32 @@ nav {
   }
   li {
     
-    
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background: blueviolet;
     margin-bottom: 23px;
     font-size: 15px;
     font-style: italic;
     font-family: cursive;
     padding: 0px;
-    height: 24px;
+    height: 58px;
     width: auto;
+    border-radius: 0px 16px 16px 0px;
     
   }
   li a.active {
-    padding: 10px;
-    border-left: 13px solid #03a9f4;
+    padding: 19px;
+    border-left: 48px solid #03a9f4;
+    position: relative;
+    top: 19px;
+    transition: 1s;
+
   }
   
   li a {
-    padding: 10px;
-    border-left: 13px solid transparent;
+    color: white;
+    padding: 19px 46px;
+    position: relative;
+    top: 19px;
   }
   
   .scroll {
